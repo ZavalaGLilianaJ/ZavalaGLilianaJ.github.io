@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header ul li {
+    margin: 20px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Alegreya', serif;
+}
+
+.sud1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Alegreya', serif
+}
+
+
+.carousel {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.carousel img {
+    width: 50px;
+}
+
+
+
+.carousel {
+    background-image: url(./pagina\ final/contenido);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.introduccion {
+    background-image: url(./imagenes1/fondo\ contenido.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduccion img {
+    height: 100px;
+}
+
+.introduccion {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Alegreya', serif
+}
+
+.sud1 {
+    display: flex;
+    justify-content: center;
+    background-image: url(./imagenes1/fondo\ pagina\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#img {
+    display: none;
+}
+
+.florafauna {
+    font-family: 'Alegreya', serif
+}
+
+button {
+    outline: none;
+    color: #DAA06D;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 2px dashed #DAA06D;
+    border-radius: 15px;
+    background-color: #c0e7b6;
+    box-shadow: 0 0 0 4px #EADDCA, 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+}
+
+button:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.pregunta1 {
+    background-image: url(./);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pregunta1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Alegreya', serif
+}
+
+.sub2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Alegreya', serif
+}
+
+.sub2 {
+    background-image: url(./imagenes1/fondo\ pagina\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout {
+    width: 1366px;
+    height: 768px;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+button {
+    outline: none;
+    color: #DAA06D;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 2px dashed #DAA06D;
+    border-radius: 15px;
+    background-color: #c0e7b6;
+    box-shadow: 0 0 0 4px #EADDCA, .5px .5px 1px .5px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+}
+
+button:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #EADDCA, .5px .5px .5px .5px rgba(0, 0, 0, 0.5);
+}
+
+.row img {
+    height: 200px;
+}
+
+.row {
+    background-image: url(./imagenes1/fondodeanimales.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row h3 {
+    font-family: 'Alegreya', serif
+}
+
+body {
+    background-image: url(./imagenes1/fondo\ pagina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a img {
+    height: 200px;
+}
+
+
+.botonanimales {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: center;
+}
+
+.botonhome {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: center;
+}
+
+.row {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.botonhome {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+
+}
+
+footer {
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+footer p {
+    font-size: small;
+}
